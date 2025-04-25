@@ -1,5 +1,48 @@
+/* navbar.css */
 .navbar {
     width: 100%;
-    height: 100px;
-    background-color: #676767;
+    padding: 5px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-list a {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: rgb(255, 255, 255, 0.2);
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    &+a:hover {
+        background-color: rgb(255, 255, 255, 0.2);
+        border-radius: 0;
+    }
+    &+a+a:hover {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+.navbar-list li+li {
+    border-left: 1px solid white;
+    /* separa a partir del segundo ítem */
+}
+
+.icon {
+    font-size: 35px;
+    color: white;
 }
