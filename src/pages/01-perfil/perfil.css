@@ -1,5 +1,45 @@
-.perfil{
+.perfil-container {
     width: 100%;
-    height: 500px;
-    background-color: blue;
+    height: auto;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    border-radius: 50%;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    width: auto;
+    background-color: slateblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.btn-cv {
+    width: auto;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 15px;
 }
