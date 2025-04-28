@@ -6,13 +6,14 @@
 }
 
 body {
-  padding: 1rem;
   background-color: #042C47;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
   gap: 1rem;
 }

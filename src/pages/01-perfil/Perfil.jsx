@@ -1,15 +1,18 @@
 import React from 'react'
+import imgPerfil from '../../assets/fotoperfil.jpg'
 import './perfil.css'
+import { FaEnvelope, FaFileArrowDown, FaGithub, FaLinkedin } from 'react-icons/fa6'
 
 const Perfil = () => {
     return (
         <section className="perfil-container">
-            <div className='foto-perfil'><img src="#" alt="" /></div>
+            <div className='foto-perfil'><img src={imgPerfil} alt="Foto de perfil" /></div>
             <h1>Montenegro Matias</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero assumenda ipsum necessitatibus laborum blanditiis, dolor quae doloribus iste tempora dolorum.</p>
+            <p>Soy una persona proactiva, organizada y responsable, con capacidad para trabajar en equipo. Me gusta aprender, asumir nuevos desafíos y busco incorporarme a un equipo donde pueda aportar mis habilidades y seguir creciendo profesionalmente.</p>
             <div className="btn-container">
-                <div className="redes">Iconos redes</div>
-                <div className="btn-cv"><p>Descargar CV</p></div>
+                <div className="btn-cv">
+                    <a href="/CV_matias-nicolas-montenegro.pdf" target="_blank" rel="noopener noreferrer">Descargar CV <FaFileArrowDown /></a>
+                </div>
             </div>
         </section>
     )

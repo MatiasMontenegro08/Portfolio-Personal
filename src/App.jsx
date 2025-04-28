@@ -10,23 +10,25 @@ import './App.css'
 function App() {
 
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Navbar />
-        <main>
-          <Routes>
-            <Route path="/" element={<Perfil />} />
-            <Route path="/perfil" element={<Perfil />} />
-            <Route path="/proyectos" element={<Proyectos />} />
-            <Route path="/habilidades" element={<Habilidades />} />
-          </Routes>
-        </main>
-        <section>
-          <Contacto />
-        </section>
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <>
+      <div className="App">
+        <BrowserRouter>
+          <Navbar />
+          <main>
+            <Routes>
+              <Route path="/" element={<Perfil />} />
+              <Route path="/perfil" element={<Perfil />} />
+              <Route path="/proyectos" element={<Proyectos />} />
+              <Route path="/habilidades" element={<Habilidades />} />
+            </Routes>
+          </main>
+          <section>
+            <Contacto />
+          </section>
+        </BrowserRouter>
+      </div>
+      <Footer />
+    </>
   )
 }
 

@@ -8,7 +8,7 @@ const Contacto = () => {
         <>
             <div className="container-texto">
                 <h2>¡Contactame!</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dolores!</p>
+                <p>¡Estoy listo para sumarme a nuevos desafíos y proyectos! Si querés colaborar o trabajar juntos, podés contactarme a través de las siguientes redes:</p>
             </div>
             <section className="contacto-container">
                 <div className='contacto-tarjeta'>
@@ -23,7 +23,7 @@ const Contacto = () => {
                         text="Email: Montenegro Matias"
                     />
                     <SocialButton
-                        url="https://wa.me/message/TUJQJOZMYYCZG1"
+                        url="https://wa.me/qr/IAHHQ57BCZWPK1"
                         Icon={FaWhatsapp}
                         text="Whatsapp: Montenegro Matias"
                     />

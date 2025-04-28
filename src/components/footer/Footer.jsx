@@ -4,7 +4,8 @@ import './footer.css'
 const Footer = () => {
     return (
         <footer className="footer">
-            <h3>Componente footer</h3>
+            <p>Diseñado por Montenegro Matias | &copy; 2025</p>
+            <p>Hecho con React</p>
         </footer>
     )
 }
