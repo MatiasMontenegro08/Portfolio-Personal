@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 body {
-  padding: 10px;
+  padding: 1rem;
   background-color: #042C47;
 }
 
-main {
-  padding: 5px;
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }

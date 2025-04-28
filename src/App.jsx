@@ -10,7 +10,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div className="App">
       <BrowserRouter>
         <Navbar />
         <main>
@@ -26,7 +26,7 @@ function App() {
         </section>
         <Footer />
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 
