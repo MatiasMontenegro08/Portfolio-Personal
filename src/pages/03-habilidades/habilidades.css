@@ -11,12 +11,12 @@
     border-radius: 15px;
     gap: 1rem;
 
-    h1{
+    h1 {
         font-size: 2.2rem;
         margin-bottom: 1rem;
     }
 
-    p{
+    p {
         font-size: 1rem;
         margin-bottom: 1rem;
         text-align: left;
@@ -35,7 +35,7 @@
     padding: 1rem;
 }
 
-.tarjeta-tecnologia{
+.tarjeta-tecnologia {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,16 +43,17 @@
     gap: 1rem;
     transition: background-color 0.3s, transform 0.3s;
 
-    &:hover{
+    &:hover {
         transform: translateY(-2px);
         color: #FFC402;
-        .tecnologia-icon{
+
+        .tecnologia-icon {
             color: #FFC402;
         }
     }
 }
 
-.tecnologia{
+.tecnologia {
     width: 100px;
     height: 100px;
     display: flex;
@@ -66,7 +67,7 @@
     background-color: rgb(255, 255, 255, 0.1);
 }
 
-.tecnologia-icon{
+.tecnologia-icon {
     width: 50px;
     height: 50px;
     color: white;
