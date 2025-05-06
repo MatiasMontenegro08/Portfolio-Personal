@@ -1,7 +1,8 @@
 import React from 'react'
 import './proyectos.css'
 import img from '../../../public/sinimagen.jpg'
-import { FaCss3, FaHtml5, FaJs } from 'react-icons/fa'
+import { FaCss3, FaEye, FaGithub, FaHtml5, FaJs } from 'react-icons/fa'
+import { Link } from 'react-router'
 
 const Proyectos = () => {
     return (
@@ -16,7 +17,14 @@ const Proyectos = () => {
                     <div className='tec-container'><FaCss3 className='tec-icon'/><p>CSS</p></div>
                     <div className='tec-container'><FaJs className='tec-icon'/><p>JavaScript</p></div>
                 </div>
-                <div className='links-proyecto'>Ver proyecto - Github</div>
+                <div className="container-links">
+                    <div className='links-proyecto'>
+                        <Link to="#"><FaEye className='icon-links'/></Link>
+                    </div>
+                    <div className='links-proyecto'>
+                        <Link to="#"><FaGithub className='icon-links'/></Link>
+                    </div>
+                </div>
             </div>
             <div className="tarjeta-proyecto">
                 <img src={img} alt="Logo Proyecto" />
@@ -27,7 +35,14 @@ const Proyectos = () => {
                     <div className='tec-container'><FaCss3 className='tec-icon'/><p>CSS</p></div>
                     <div className='tec-container'><FaJs className='tec-icon'/><p>JavaScript</p></div>
                 </div>
-                <div className='links-proyecto'>Ver proyecto - Github</div>
+                <div className="container-links">
+                    <div className='links-proyecto'>
+                        <Link to="#"><FaEye className='icon-links'/></Link>
+                    </div>
+                    <div className='links-proyecto'>
+                        <Link to="#"><FaGithub className='icon-links'/></Link>
+                    </div>
+                </div>
             </div>
         </section>
     )
