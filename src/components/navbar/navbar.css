@@ -46,3 +46,9 @@
     font-size: 35px;
     color: white;
 }
+
+@media (min-width: 500px) {
+    .navbar {
+        width: 80%;
+    }
+}

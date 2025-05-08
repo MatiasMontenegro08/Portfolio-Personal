@@ -42,3 +42,15 @@
     display: flex;
     gap: 1rem;
 }
+
+@media (min-width: 500px) {
+    .container-texto {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contacto-container {
+        width: 80%;
+        margin: auto;
+    }
+}

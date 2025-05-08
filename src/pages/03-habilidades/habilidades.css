@@ -72,3 +72,10 @@
     height: 50px;
     color: white;
 }
+
+@media (min-width: 500px) {
+    .habilidades-container {
+        width: 80%;
+        margin: auto;
+    }
+}

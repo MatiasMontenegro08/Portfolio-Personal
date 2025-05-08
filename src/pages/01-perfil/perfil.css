@@ -71,3 +71,12 @@ h1 {
         color: #020031;
     }
 }
+
+@media (min-width: 500px) {
+    .perfil-container {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
