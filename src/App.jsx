@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router'
 import Navbar from './components/navbar/Navbar'
-import Perfil from './pages/01-perfil/perfil'
+import Perfil from './pages/01-perfil/Perfil'
 import Contacto from './pages/04-Contacto/Contacto'
 import Proyectos from './pages/02-proyectos/Proyectos'
 import Habilidades from './pages/03-habilidades/Habilidades'
