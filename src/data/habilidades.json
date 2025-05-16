@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "nombre": "HTML",
+        "icono": "FaHtml5"
+    },
+    {
+        "id":2,
+        "nombre": "CSS",
+        "icono": "FaCss3"
+    },
+    {
+        "id":3,
+        "nombre": "JavaScript",
+        "icono": "FaJs"
+    },
+    {
+        "id":4,
+        "nombre": "React",
+        "icono": "FaReact"
+    },
+    {
+        "id":5,
+        "nombre": "Node.js",
+        "icono": "FaNodeJs"
+    }
+]

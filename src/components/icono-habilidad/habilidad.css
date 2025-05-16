@@ -1,0 +1,37 @@
+.tarjeta-tecnologia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+
+    &:hover {
+        transform: translateY(-2px);
+        color: #FFC402;
+
+        .tecnologia-icon {
+            color: #FFC402;
+        }
+    }
+}
+
+.tecnologia {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.tecnologia-icon {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
