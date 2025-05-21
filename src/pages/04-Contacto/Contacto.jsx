@@ -5,7 +5,7 @@ import './contacto.css'
 
 const Contacto = () => {
     return (
-        <>
+        <div className="contacto">
             <div className="container-texto">
                 <h2>¡Contactame!</h2>
                 <p>¡Estoy listo para sumarme a nuevos desafíos y proyectos! Si querés colaborar o trabajar juntos, podés contactarme a través de las siguientes redes:</p>
@@ -34,7 +34,7 @@ const Contacto = () => {
                     />
                 </div>
             </section>
-        </>
+        </div>
     )
 }
 

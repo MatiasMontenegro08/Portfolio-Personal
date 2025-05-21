@@ -2,24 +2,16 @@
     display: inline-flex;
     align-items: center;
     background-color: #e0e0e0;
-    /* Color de fondo base */
     padding: 0.5rem 1rem;
     border-radius: 9999px;
-    /* Redondeado tipo píldora */
     text-decoration: none;
-    transition: background-color 0.3s, transform 0.3s;
 }
 
-.social-button:hover {
-    background-color: #d0d0d0;
-    /* Color de fondo en hover */
-    transform: translateY(-2px);
-    /* Pequeño "salto" al pasar el mouse */
-}
+
 
 .social-icon {
-    font-size: 1.5rem;
     /* Tamaño del icono */
+    font-size: 1.5rem;
     margin-right: 0.5rem;
     color: #020031;
 }
@@ -27,5 +19,15 @@
 .social-text {
     font-size: 1rem;
     color: #020031;
-    /* Color de texto base */
+}
+
+@media (min-width: 1024px) {
+    .social-button {
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .social-button:hover {
+        background-color: #FFC402;
+        transform: translateY(-2px);
+    }
 }

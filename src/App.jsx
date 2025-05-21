@@ -8,11 +8,10 @@ import Footer from './components/footer/Footer'
 import './App.css'
 
 function App() {
-
   return (
-    <>
-      <div className="App">
-        <BrowserRouter>
+    <div className="App-grid">
+      <BrowserRouter>
+        <div className="contenido">
           <Navbar />
           <main>
             <Routes>
@@ -22,13 +21,13 @@ function App() {
               <Route path="/habilidades" element={<Habilidades />} />
             </Routes>
           </main>
-          <section>
+          <section className="contacto-section">
             <Contacto />
           </section>
-        </BrowserRouter>
-      </div>
-      <Footer />
-    </>
+        </div>
+        <Footer />
+      </BrowserRouter>
+    </div>
   )
 }
 
