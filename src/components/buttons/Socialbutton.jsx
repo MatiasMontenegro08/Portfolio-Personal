@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { toast } from 'react-toastify';
 import './SocialButton.css';
 
 const SocialButton = ({ url, Icon, text, copyText }) => {
-
     const handleClick = (e) => {
         if (copyText) {
             e.preventDefault(); // Evitar navegación si es copiar
             navigator.clipboard.writeText(copyText)
                 .then(() => {
-                    alert('¡Correo copiado al portapapeles!');
+                    toast.success('¡Correo copiado!');
                 })
                 .catch(err => {
+                    toast.error('Error al copiar el correo');
                     console.error('Error al copiar:', err);
                 });
         }

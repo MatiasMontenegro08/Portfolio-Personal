@@ -5,6 +5,8 @@ import Contacto from './pages/04-Contacto/Contacto'
 import Proyectos from './pages/02-proyectos/Proyectos'
 import Habilidades from './pages/03-habilidades/Habilidades'
 import Footer from './components/footer/Footer'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
+      <ToastContainer />
     </div>
   )
 }
