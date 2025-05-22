@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { toast } from 'react-toastify';
-import './SocialButton.css';
+import './socialbutton.css';
 
 const SocialButton = ({ url, Icon, text, copyText }) => {
     const handleClick = (e) => {
