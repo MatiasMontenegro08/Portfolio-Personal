@@ -1,7 +1,6 @@
 .proyectos-container {
     width: 100%;
     height: auto;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,4 +9,11 @@
     border-radius: 15px;
     gap: 2rem;
     color: white;
+}
+
+.separador {
+    width: 90%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 0;
 }

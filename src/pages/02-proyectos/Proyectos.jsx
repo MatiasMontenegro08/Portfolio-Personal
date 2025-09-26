@@ -14,7 +14,7 @@ const Proyectos = () => {
             <Cardproyecto
                 img={imgProyecto}
                 titulo="Catálogo Pega-Ya"
-                descripcion="Catálogo de stickers personalizado para un emprendimiento local. Permite a los usuarios explorar y seleccionar entre una variedad de stickers, agregarlos a su carrito, con la opción de poder copiar el pedido y enviarlo por Instagram."
+                descripcion="Catálogo de stickers personalizado para un emprendimiento local. Permite a los usuarios explorar y seleccionar entre una variedad de stickers, agregarlos a su carrito, con la opción de poder copiar el pedido y enviarlo por instagram."
                 linkVer="https://catalogo-pega-ya.vercel.app/"
                 linkRepo="https://github.com/MatiasMontenegro08/Catalogo-PegaYa.git"
             >
@@ -27,6 +27,7 @@ const Proyectos = () => {
                 <div className='tec-container'><RiBootstrapLine className='tec-icon'/><p>Bootstrap</p></div>
 
             </Cardproyecto>
+            {/* <div className='separador'></div> */}
             {/* <Cardproyecto
                 img={imgProyecto}
                 titulo="Proyecto 2"
